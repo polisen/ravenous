@@ -19,6 +19,17 @@
   color: white;
 }
 
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  background: #000;
+}
+
+.image-container img {
+  width: 100%;
+}
 .App-link {
   color: #61dafb;
 }
